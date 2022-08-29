@@ -6,15 +6,17 @@ import Story from "./components/Story";
 import Roadmap from "./components/Roadmap";
 import Team from "./components/Team";
 import Footer from "./components/Footer";
+import Benefits from "./components/Benefits";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Story />
+      <Benefits />
       <Roadmap />
       <Team />
       <Footer />
-    </div>
+    </>
   );
 }
 

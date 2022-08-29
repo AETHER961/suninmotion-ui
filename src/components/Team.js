@@ -6,8 +6,8 @@ const Team = () => {
     <div className="team-main d-flex flex-column">
       <h1>The Team</h1>
       <p>Lorem ipsum dolor sit amet. Ut repellendus.</p>
-      <div className="d-flex justify-content-between">
-        <div className="d-flex flex-column">
+      <div className="cards">
+        <div className="d-flex flex-column align-items-center">
           <svg
             width="368"
             height="358"
@@ -25,7 +25,7 @@ const Team = () => {
             />
             <defs>
               <pattern
-                id="pattern0"
+                id="pattern03"
                 patternContentUnits="objectBoundingBox"
                 width="1"
                 height="1"
@@ -43,10 +43,10 @@ const Team = () => {
               />
             </defs>
           </svg>
-          <h5>Member Name</h5>
-          <p>Job Title</p>
+          <h5 className="m-0 mt-4">Member Name</h5>
+          <p className="m-0 mt-3">Job Title</p>
         </div>
-        <div className="d-flex flex-column">
+        <div className="d-flex flex-column align-items-center">
           <svg
             width="368"
             height="358"
@@ -64,7 +64,7 @@ const Team = () => {
             />
             <defs>
               <pattern
-                id="pattern0"
+                id="pattern03"
                 patternContentUnits="objectBoundingBox"
                 width="1"
                 height="1"
@@ -82,10 +82,10 @@ const Team = () => {
               />
             </defs>
           </svg>
-          <h5>Member Name</h5>
-          <p>Job Title</p>
+          <h5 className="m-0 mt-4">Member Name</h5>
+          <p className="m-0 mt-3">Job Title</p>
         </div>
-        <div className="d-flex flex-column">
+        <div className="d-flex flex-column align-items-center">
           <svg
             width="368"
             height="358"
@@ -103,7 +103,7 @@ const Team = () => {
             />
             <defs>
               <pattern
-                id="pattern0"
+                id="pattern03"
                 patternContentUnits="objectBoundingBox"
                 width="1"
                 height="1"
@@ -121,8 +121,8 @@ const Team = () => {
               />
             </defs>
           </svg>
-          <h5>Member Name</h5>
-          <p>Job Title</p>
+          <h5 className="m-0 mt-4">Member Name</h5>
+          <p className="m-0 mt-3">Job Title</p>
         </div>
       </div>
     </div>
